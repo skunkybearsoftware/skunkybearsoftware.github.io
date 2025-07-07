@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skunky Bear Software</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Skunky Bear Software Logo" class="logo">
+    <h1>Skunky Bear Software</h1>
+    <p class="subtitle">Fierce. Relentless. Unstoppable.</p>
+  </header>
+  <main>
+    <section class="about">
+      <h2>About Us</h2>
+      <p>Skunky Bear Software delivers creative, reliable, and robust software solutions for businesses of all sizes. We blend cutting-edge technology with a bold, unique approach.</p>
+    </section>
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <form id="contact-form" action="https://formspree.io/f/movwojay" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="hidden" name="_subject" value="New Contact Submission from Skunky Bear Software">
+        <input type="hidden" name="_replyto" value="sales@skunkybearsoftware.com">
+        <button type="submit">Send</button>
+      </form>
+      <div id="form-status"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Skunky Bear Software. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+  background: #181828;
+  color: #f2f2f7;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+  background: #0b0718
+}
+
+.logo {
+  width: 160px;
+  height: auto;
+  margin-bottom: 1rem;
+  /* filter: drop-shadow(0 0 16px #ff2e88) drop-shadow(0 0 8px #2e8cff); */
+}
+
+h1 {
+  color: #fc4774;
+  margin: 0.2em 0 0.1em 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  color: #2e8cff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5em;
+}
+
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #23234a;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgba(46, 140, 255, 0.08);
+}
+
+.about h2, .contact h2 {
+  color: #fc4774;
+  margin-top: 0;
+}
+
+.about p {
+  color: #f2f2f7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  color: #2e8cff;
+  font-weight: 600;
+}
+
+input, textarea, button {
+  font-size: 1rem;
+  padding: 0.7em;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+input, textarea {
+  background: #181828;
+  color: #f2f2f7;
+  border: 1px solid #2e8cff;
+}
+
+input:focus, textarea:focus {
+  border-color: #ff2e88;
+}
+
+button {
+  background: linear-gradient(90deg, #fc4774 0%, #2e8cff 100%);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #2e8cff 0%, #ff2e88 100%);
+}
+
+#form-status {
+  margin-top: 1rem;
+  color: #ff2e88;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0 1rem 0;
+  color: #2e8cff;
+  background: #1a1a2e;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
